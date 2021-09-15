@@ -1,6 +1,6 @@
 # My Website
 
-This is the place where you can learn who I am and what I do
+This website is the place where you can learn who I am and what I do
 
 ## Technologies used
 - ASP.NET Core MVC
