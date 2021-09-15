@@ -23,7 +23,14 @@ namespace Website.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        [HttpGet]
+        public IActionResult Contact()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Contact(string name, string email, string message)
         {
             return View();
         }
