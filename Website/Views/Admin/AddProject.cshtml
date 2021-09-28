@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = Localizer["PageTitle"];
+}
+
+<div class="container mt-3">
+    <h3>@ViewData["Title"]</h3>
+    <form asp-action="AddProject" method="post">
+        <div class="mb-3 form-floating">
+            <input name="title" type="text" class="form-control bg-dark text-white" id="title" placeholder="@Localizer["CardTitle"]">
+            <label for="title" class="form-label">@Localizer["CardTitle"]</label>
+        </div>
+        <div class="mb-3 form-floating">
+            <textarea name="content" class="form-control bg-dark text-white" placeholder=@Localizer["CardContent"] id="content" style="min-height: 200px"></textarea>
+            <label for="content">@Localizer["CardContent"]</label>
+        </div>
+        <div class="mb-3 form-floating">
+            <input name="footer" type="text" class="form-control bg-dark text-white" id="footer" placeholder="@Localizer["CardFooter"]">
+            <label for="footer" class="form-label">@Localizer["CardFooter"]</label>
+        </div>
+        <button class="btn btn-dark border-1 border-white" type="submit">@Localizer["SaveButton"]</button>
+    </form>
+</div>
