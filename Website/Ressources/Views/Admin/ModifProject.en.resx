@@ -117,16 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="HomeTitle" xml:space="preserve">
-    <value>Mes projets</value>
+  <data name="CardContent" xml:space="preserve">
+    <value>Content</value>
   </data>
-  <data name="NavbarTitle1" xml:space="preserve">
-    <value>Accueil</value>
+  <data name="CardFooter" xml:space="preserve">
+    <value>Footer</value>
   </data>
-  <data name="NavbarTitle2" xml:space="preserve">
-    <value>Contact</value>
+  <data name="CardTitle" xml:space="preserve">
+    <value>Title</value>
   </data>
-  <data name="NavbarTitle3" xml:space="preserve">
-    <value>CV</value>
+  <data name="PageTitle" xml:space="preserve">
+    <value>Modify project</value>
+  </data>
+  <data name="SaveButton" xml:space="preserve">
+    <value>Save</value>
   </data>
 </root>

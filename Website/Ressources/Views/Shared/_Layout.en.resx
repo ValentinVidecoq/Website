@@ -117,8 +117,8 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="HomeTitle" xml:space="preserve">
-    <value>My projects</value>
+  <data name="Lang" xml:space="preserve">
+    <value>en</value>
   </data>
   <data name="NavbarTitle1" xml:space="preserve">
     <value>Home</value>
