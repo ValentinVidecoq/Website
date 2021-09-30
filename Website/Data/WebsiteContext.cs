@@ -15,5 +15,6 @@ namespace Website.Data
         }
 
         public DbSet<Website.Models.Contact> Contact { get; set; }
+        public DbSet<Website.Models.Project> Project { get; set; }
     }
 }

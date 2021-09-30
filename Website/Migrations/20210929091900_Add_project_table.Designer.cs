@@ -2,15 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Website.Data;
 
 namespace Website.Migrations
 {
     [DbContext(typeof(WebsiteContext))]
-    partial class WebsiteContextModelSnapshot : ModelSnapshot
+    [Migration("20210929091900_Add_project_table")]
+    partial class Add_project_table
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -38,27 +40,6 @@ namespace Website.Migrations
 
                     b.ToTable("Contact");
                 });
-
-            modelBuilder.Entity("Website.Models.Project", b =>
-            {
-                b.Property<int>("ID")
-                    .ValueGeneratedOnAdd()
-                    .HasColumnType("int")
-                    .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                b.Property<string>("title")
-                    .HasColumnType("nvarchar(max)");
-
-                b.Property<string>("content")
-                    .HasColumnType("nvarchar(max)");
-
-                b.Property<string>("footer")
-                    .HasColumnType("nvarchar(max)");
-
-                b.HasKey("ID");
-
-                b.ToTable("Project");
-            });
 #pragma warning restore 612, 618
         }
     }
