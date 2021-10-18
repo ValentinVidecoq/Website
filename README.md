@@ -1,6 +1,6 @@
 # My Website
 
-This website is the place where you can learn who I am and what I do
+I started building this site as a toolbox for what I learned during an internship and it turned out to make a great portfolio / personal website
 
 ## Technologies used
 - ASP.NET Core MVC
